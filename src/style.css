@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #e8f8f5; /* Ніжний м'ятний */
-    color: #4a154b; /* Глибокий фіолетовий */
+    background-color: #e8f8f5;
+    color: #4a154b;
     margin: 0;
     padding: 0;
-    line-height: 1.6; /* Покращення читабельності */
+    line-height: 1.6;
 }
 
 .container {
@@ -39,12 +41,12 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Блок для кнопок */
+
 .buttons {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin: 20px auto; /* Відступи навколо кнопок */
+    margin: 20px auto;
     width: 90%;
     max-width: 600px;
 }
@@ -62,7 +64,7 @@ button:hover {
     text-align: left;
     font-size: 18px;
     line-height: 1.7;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додавання м'якої тіні */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
