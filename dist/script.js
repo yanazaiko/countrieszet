@@ -5,9 +5,6 @@ class Country {
         this.area = area;
         this.population = population;
     }
-    getName() {
-        return this.name;
-    }
     getArea() {
         return this.area;
     }
